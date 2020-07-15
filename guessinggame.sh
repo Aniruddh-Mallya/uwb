@@ -17,5 +17,6 @@ echo "Pls guess once again:"
 fi 
 done
 echo "Exiting..."
+echo "bye!"
 
 
