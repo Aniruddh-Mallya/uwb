@@ -1,7 +1,10 @@
 echo "Hello User!"
 echo "Can you guess the number of files contained in the directory?" 
 response=0
+function ask_once{
 echo "Enter a value:"
+}
+ask_once
 while [[ $response -ne 3 ]]
 do
 read response 
